@@ -1,2 +1,33 @@
 # Diabetes-prediction
-Commonly used dataset: PIMA Indians Diabetes Dataset (available on Kaggle / UCI Repository).  Features include:  Number of Pregnancies  Glucose Level  Blood Pressure  Skin Thickness  Insulin Level  BMI (Body Mass Index)  Diabetes Pedigree Function  Age  Target Variable: Outcome (0 = Non-diabetic, 1 = Diabetic)
+Programming Language: Python 🐍
+
+Libraries Used:
+
+pandas → Data manipulation
+
+numpy → Numerical computations
+
+matplotlib, seaborn → Data visualization
+
+scikit-learn → Machine learning algorithms and evaluation
+Data Collection & Loading – Load dataset using Pandas.
+
+Data Preprocessing – Handle missing values, normalize/scale features.
+
+Exploratory Data Analysis (EDA) – Visualize correlations and distributions.
+
+Model Building – Apply ML models such as:
+
+Logistic Regression
+
+Decision Tree
+
+Random Forest
+
+K-Nearest Neighbors (KNN)
+
+Support Vector Machine (SVM)
+
+Model Evaluation – Compare models using accuracy, precision, recall, and F1-score.
+
+Prediction – Predict diabetes outcome for new patient data.
